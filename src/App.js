@@ -4,6 +4,8 @@ import Center from './components/Center';
 import Oveview from './components/Oveview';
 import History from './components/History';
 import Places from './components/Places';
+import Ways from './components/Ways';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Oveview />
       <History />
       <Places />
+      <Ways />
+      <Footer />
     </Center>
   );
 }

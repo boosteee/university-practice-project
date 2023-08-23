@@ -35,7 +35,7 @@ const Navbar = () => {
             {links.map(({ id, link }) => (
               <li
                 key={id}
-                className='md:px-14 px-8 xl:px-16 lg:px-10 cursor-pointer font-medium text-[#49494B] hover:scale-105 duration-200'
+                className='md:px-14 px-8 xl:px-16 lg:px-10 cursor-pointer font-medium hover:scale-105 duration-200 text-[#49494B] '
               >
                 {link}
               </li>
