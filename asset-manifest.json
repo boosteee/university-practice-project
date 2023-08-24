@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/university-practice-project/static/css/main.068d3ef3.css",
+    "main.js": "/university-practice-project/static/js/main.791381e6.js",
+    "static/media/8.jpg": "/university-practice-project/static/media/8.535ef9157883bb5450bf.jpg",
+    "static/media/6.jpg": "/university-practice-project/static/media/6.df11ea9b603c2e864a2d.jpg",
+    "static/media/5.jpg": "/university-practice-project/static/media/5.32fcca2fcf827f5780cc.jpg",
+    "static/media/7.jpg": "/university-practice-project/static/media/7.14058c9b17db7d5c26c5.jpg",
+    "static/media/3.jpg": "/university-practice-project/static/media/3.b660ad697dce4af57bd7.jpg",
+    "static/media/2.jpg": "/university-practice-project/static/media/2.5e843f5946106abc04dd.jpg",
+    "static/media/4.jpg": "/university-practice-project/static/media/4.6a1c57bae17bc68a40f7.jpg",
+    "static/media/1.jpg": "/university-practice-project/static/media/1.a39edf85eeb6400baa78.jpg",
+    "static/media/logo.svg": "/university-practice-project/static/media/logo.9114ec82bd22ba27c1d085f6956f5869.svg",
+    "static/media/map.svg": "/university-practice-project/static/media/map.685abad696adf0ea27a9026adc33c2c6.svg",
+    "index.html": "/university-practice-project/index.html",
+    "main.068d3ef3.css.map": "/university-practice-project/static/css/main.068d3ef3.css.map",
+    "main.791381e6.js.map": "/university-practice-project/static/js/main.791381e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.068d3ef3.css",
+    "static/js/main.791381e6.js"
+  ]
+}
