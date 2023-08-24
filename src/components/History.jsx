@@ -11,7 +11,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const History = () => {
   return (
-    <div className='px-6 max-w-7xl w-full mt-12'>
+    <div name='история' className='px-6 max-w-7xl w-full mt-12'>
       <p className='mr-auto font-bold text-2xl md:text-3xl mb-5'>История</p>
       <VerticalTimeline lineColor={'#6571F9'}>
         {timelineElements.map((element) => {
@@ -46,6 +46,7 @@ const History = () => {
               </p>
               <p
                 style={{
+                  fontWeight: 'normal',
                   fontSize: '1.125rem',
                   lineHeight: '1.75rem',
                   color: '#49494B',

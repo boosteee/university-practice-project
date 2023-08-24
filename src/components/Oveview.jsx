@@ -2,7 +2,7 @@ import React from 'react';
 
 function Oveview() {
   return (
-    <div className='px-6 max-w-7xl w-full mt-12'>
+    <div name='обзор' className='px-6 max-w-7xl w-full mt-12'>
       <p className=' font-bold text-2xl md:text-3xl text-[#1B1C1E]'>Обзор</p>
       <p className='mt-5 text-lg text-[#49494B]'>
         Чериков - административный центр Чериковского района Могилевской области

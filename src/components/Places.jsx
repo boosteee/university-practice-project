@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import placesData from '../placesData';
 import { PiMapPinFill } from 'react-icons/pi';
+import useBodyScrollLock from '../useBodyScrollLock';
 
 const Places = () => {
+  const [isLocked, toggle] = useBodyScrollLock();
   const [popUpContent, setPopUpContent] = useState([]);
   const [popUpToggle, setPopUpToggle] = useState(false);
   const changeContent = (item) => {
     setPopUpContent([item]);
     setPopUpToggle(!popUpToggle);
+    toggle();
   };
   return (
-    <div className='px-6 max-w-7xl w-full mt-12'>
+    <div name='интересные места' className='px-6 max-w-7xl w-full mt-12'>
       <p className='text-[#1B1C1E] mr-auto font-bold text-2xl md:text-3xl'>
         Интересные места
       </p>
@@ -35,12 +38,15 @@ const Places = () => {
         })}
       </div>
       {popUpToggle && (
-        <div className=' fixed top-0 left-0 bottom-0 right-0 bg-gray-950 bg-opacity-75 flex flex-col justify-center overflow-auto z-50 items-center'>
+        <div
+          onClick={changeContent}
+          className=' fixed top-0 left-0 bottom-0 right-0 bg-gray-950 bg-opacity-75 flex flex-col justify-center overflow-auto z-50 items-center'
+        >
           {popUpContent.map((place) => {
             return (
               <div
-                className='bg-[#FCFCFA] gap-x-14 max-w-6xl shadow-xl rounded-3xl items-center flex flex-col gap-y-10 lg:flex-row cursor-pointer p-8 m-8'
-                onClick={changeContent}
+                onClick={(event) => event.stopPropagation()}
+                className='bg-[#FCFCFA] gap-x-14 max-w-6xl shadow-xl rounded-3xl items-center flex flex-col gap-y-10 lg:flex-row  p-8 m-8'
               >
                 <img
                   className='rounded-2xl w-[300px] md:w-5/12 aspect-square object-cover'

@@ -8,5 +8,10 @@
   html {
     font-family: 'Raleway', sans-serif;
     background-color: #fcfcfa;
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
   }
 }

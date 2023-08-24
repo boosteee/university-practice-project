@@ -3,7 +3,7 @@ import waysData from '../waysData';
 
 const Ways = () => {
   return (
-    <div className='px-6 max-w-7xl w-full mt-12'>
+    <div name='как добраться' className='px-6 max-w-7xl w-full mt-12'>
       <p className='text-[#1B1C1E] mr-auto font-bold text-2xl md:text-3xl'>
         Как добраться
       </p>
